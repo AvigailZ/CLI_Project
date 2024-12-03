@@ -189,7 +189,7 @@ CreateRspCommand.SetHandler(() =>
     }
 
 
-    var rspCommand = $" bundle  --output \"{output}\" --language \"{language}\"";
+    var rspCommand = $"bundle  --output \"{output}\" --language \"{language}\"";
     if (author != "")
     {
         rspCommand += $" --author \"{author}\"";
